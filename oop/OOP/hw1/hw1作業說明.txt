@@ -1,0 +1,1 @@
+將 BeverageMaker設定為abstract的類別，然後將brew,addIce跟addCondiments等Methods設定為abstract，使繼承BeverageMaker的subclass一定要實現這些抽象方法，然後再依使用者的需求決定addIce()是否要實作，像是我的CoffeeMaker中的addIce()就是空的，表示「什麼事都不做」，代表"不加冰"，而TeaMaker中則是進行"加冰"的動作。

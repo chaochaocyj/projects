@@ -1,0 +1,1 @@
+在新增一個新的設備時，都讓一個subclass繼承此設備且同時implements名為Control的interface，使每個新增的subclass都必須實現execute的動作，以便完成用buttons[buttonID].execute()就可以實現每個裝置各司其職的功能。此外再多新增一為setbutton的方法於Remote中，使得使用者可以在TestRemote中設定每個按鈕要綁定何種設備。

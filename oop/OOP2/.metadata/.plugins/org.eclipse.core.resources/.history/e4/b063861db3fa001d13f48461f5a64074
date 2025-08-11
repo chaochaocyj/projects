@@ -1,0 +1,24 @@
+package hw3;
+
+public class Remote {
+	
+	Control [] buttons = new Control [5];
+    buttons[0] = new Controltv();
+    buttons[1] = new Controlsb();
+    buttons[2] = new Controllt();
+    
+   
+   
+    void buttonClicked(int buttonId) {
+    	buttons[buttonId].control();
+    }
+    
+    /**
+     * 直接啟動所有的裝置(意即，每個裝置的按鈕都按一下)
+     */
+    void pressAllButtons() {
+        for ( int i = 0; i < buttons.length; i++ ) {
+            buttonClicked(i);
+        }
+    }
+}

@@ -1,0 +1,7 @@
+package hw4;
+
+public interface Tea {
+	  /* 取得成分說明 */
+	  public String getIngredient();
+	  public int getCost();
+}

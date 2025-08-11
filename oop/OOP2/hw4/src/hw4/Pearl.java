@@ -1,0 +1,26 @@
+package hw4;
+
+public class Pearl implements Tea {
+	Tea t;
+	int cost = 10;
+	Pearl(){} // 建構子
+	Pearl(Tea already){
+		t = already;
+	}
+	@Override
+	public String getIngredient() {
+		if(t != null)
+			return "珍珠\n" + t.getIngredient();
+		else
+			return "珍珠\n";
+	}
+
+	@Override
+	public int getCost() {
+		if(t != null)
+			return cost + t.getCost();
+		else
+			return cost;
+	}
+
+}

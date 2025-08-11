@@ -1,0 +1,28 @@
+package hw4;
+
+public class BlackTea implements Tea {
+	Tea t;
+	int cost = 20;
+	
+	BlackTea(){ // 建構子
+	}
+	BlackTea(Tea already){
+		t = already;
+	}
+	@Override
+	public String getIngredient() {
+		if(t != null)
+			return "紅茶\n" + t.getIngredient();
+		else
+			return "紅茶\n";
+	}
+
+	@Override
+	public int getCost() {
+		if(t != null)
+			return cost + t.getCost();
+		else
+			return cost;
+	}
+
+}

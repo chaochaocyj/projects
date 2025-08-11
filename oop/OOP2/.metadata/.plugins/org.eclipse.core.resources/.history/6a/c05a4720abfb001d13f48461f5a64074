@@ -1,0 +1,17 @@
+package hw4;
+
+public class Sugar implements Tea {
+
+	@Override
+	public String getIngredient() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public int getCost() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}

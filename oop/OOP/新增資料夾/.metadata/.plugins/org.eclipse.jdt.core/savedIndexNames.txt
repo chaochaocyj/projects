@@ -1,0 +1,2 @@
+INDEX VERSION 1.132+C:\Users\zxc20\OneDrive\桌面\新增資料夾\.metadata\.plugins\org.eclipse.jdt.core
+1865797976.index

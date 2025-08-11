@@ -1,0 +1,30 @@
+package hw3;
+
+public class TestRemote {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+        Remote r = new Remote();// 產生遙控器，可能還需要綁定設備
+        Control c = new Controltv();
+        r.setbutton(0, c);//設定第零個按鈕是綁定電視
+        c = new Controlsb();
+        r.setbutton(1, c);//設定第一個按鈕是綁定音響
+        c = new Controllt();
+        r.setbutton(2, c);//設定第二個按鈕是綁定燈光
+        
+        r.buttonClicked(0); // 按下第零個按鈕
+        r.buttonClicked(0); // 按下第零個按鈕(第二次)
+        r.buttonClicked(0); // 按下第零個按鈕(第三次)
+        r.buttonClicked(1);
+        r.buttonClicked(1);
+        r.buttonClicked(1);
+        r.buttonClicked(1);
+        r.buttonClicked(2);
+        r.buttonClicked(2);
+        r.buttonClicked(2);
+        System.out.println("__________________");
+        r.pressAllButtons();
+	}
+
+
+}

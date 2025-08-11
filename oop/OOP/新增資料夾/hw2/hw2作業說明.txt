@@ -1,0 +1,1 @@
+因為不知道另一個是新物件的開發者會如何比較其物件，所以compare這項任務一定要在新的類別中進行實做才能符合這項作業的規定，因此我定義一個名為Compare的interface，然後使新產生的class都要implements它，強制新產生的class都要實踐compare此功能，而因為我也不知道新產生的類別為何，所以compare帶入的參數要是Object(Object 是所有的類別的superclass)才行。

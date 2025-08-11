@@ -1,0 +1,29 @@
+package hw4;
+
+public class TestBeverage {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+	      /* 製作珍珠奶茶 */
+	      
+	      // 1.產生牛奶
+	      // 2.加紅茶
+	      // 3.加珍珠
+	      // 完成！
+		  Tea t1 = new Milk();
+		  Tea t2 = new BlackTea(t1);
+		  Tea t3 = new Pearl(t2);
+		  System.out.println(t3.getIngredient());
+		  System.out.println(t3.getCost());
+		  System.out.println("_________________");
+		  Tea t4 = new Sugar();
+		  Tea t5 = new GreenTea(t4);
+		  Tea t6 = new Pearl(t5);
+		  Tea t7 = new Milk(t6);
+		  
+		  System.out.println(t7.getIngredient());
+		  System.out.println(t7.getCost());
+		  	
+	}
+
+}
