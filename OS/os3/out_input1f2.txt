@@ -1,0 +1,14 @@
+--------------FIFO-----------------------
+1	1	F
+2	21	F
+3	32	F
+4	43	F
+1	14	F
+2	21	F
+5	52	F
+1	15	F
+2	21	F
+3	32	F
+4	43	F
+5	54	F
+Page Fault = 12  Page Replaces = 10  Page Frames = 2
