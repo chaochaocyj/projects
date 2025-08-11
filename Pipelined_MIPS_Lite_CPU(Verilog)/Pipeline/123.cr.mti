@@ -1,0 +1,365 @@
+C:/Users/user/Desktop/Pipeline/mux2.v {1 {vlog -work work -stats=none C:/Users/user/Desktop/Pipeline/mux2.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module mux2
+
+Top level modules:
+	mux2
+
+} {} {}} C:/Users/user/Desktop/Pipeline/FA.v {1 {vlog -work work -stats=none C:/Users/user/Desktop/Pipeline/FA.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module FA
+
+Top level modules:
+	FA
+
+} {} {}} C:/Users/user/Downloads/Pipeline/multiplier.v {1 {vlog -work work -stats=none C:/Users/user/Downloads/Pipeline/multiplier.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module Multiplier
+
+Top level modules:
+	Multiplier
+
+} {} {}} C:/Users/user/Desktop/Pipeline/memory.v {1 {vlog -work work -stats=none C:/Users/user/Desktop/Pipeline/memory.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module memory
+
+Top level modules:
+	memory
+
+} {} {}} C:/Users/user/Desktop/Pipeline/hazard.v {1 {vlog -work work -stats=none C:/Users/user/Desktop/Pipeline/hazard.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module hazard
+
+Top level modules:
+	hazard
+
+} {} {}} C:/Users/user/Downloads/Pipeline/ALU_1bit.v {1 {vlog -work work -stats=none C:/Users/user/Downloads/Pipeline/ALU_1bit.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module ALU_1bit
+
+Top level modules:
+	ALU_1bit
+
+} {} {}} C:/Users/user/Desktop/Pipeline/IF_ID.v {1 {vlog -work work -stats=none C:/Users/user/Desktop/Pipeline/IF_ID.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module IF_ID
+
+Top level modules:
+	IF_ID
+
+} {} {}} C:/Users/user/Downloads/Pipeline/MUX4to1.v {1 {vlog -work work -stats=none C:/Users/user/Downloads/Pipeline/MUX4to1.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module MUX4to1
+
+Top level modules:
+	MUX4to1
+
+} {} {}} C:/Users/user/Downloads/Pipeline/ALU.v {1 {vlog -work work -stats=none C:/Users/user/Downloads/Pipeline/ALU.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module ALU
+
+Top level modules:
+	ALU
+
+} {} {}} C:/Users/user/Desktop/Pipeline/reg32.v {1 {vlog -work work -stats=none C:/Users/user/Desktop/Pipeline/reg32.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module reg32
+
+Top level modules:
+	reg32
+
+} {} {}} C:/Users/user/Downloads/Pipeline/IF_ID.v {1 {vlog -work work -stats=none C:/Users/user/Downloads/Pipeline/IF_ID.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module IF_ID
+
+Top level modules:
+	IF_ID
+
+} {} {}} C:/Users/user/Downloads/Pipeline/reg32.v {1 {vlog -work work -stats=none C:/Users/user/Downloads/Pipeline/reg32.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module reg32
+
+Top level modules:
+	reg32
+
+} {} {}} C:/Users/user/Downloads/Pipeline/reg_file.v {1 {vlog -work work -stats=none C:/Users/user/Downloads/Pipeline/reg_file.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module reg_file
+
+Top level modules:
+	reg_file
+
+} {} {}} C:/Users/user/Desktop/Pipeline/tb_SingleCycle.v {1 {vlog -work work -stats=none C:/Users/user/Desktop/Pipeline/tb_SingleCycle.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module tb_SingleCycle
+
+Top level modules:
+	tb_SingleCycle
+
+} {} {}} C:/Users/user/Desktop/Pipeline/MEM_WB.v {1 {vlog -work work -stats=none C:/Users/user/Desktop/Pipeline/MEM_WB.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module MEM_WB
+
+Top level modules:
+	MEM_WB
+
+} {} {}} C:/Users/user/Downloads/Pipeline/memory.v {1 {vlog -work work -stats=none C:/Users/user/Downloads/Pipeline/memory.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module memory
+
+Top level modules:
+	memory
+
+} {} {}} C:/Users/user/Downloads/Pipeline/hazard.v {1 {vlog -work work -stats=none C:/Users/user/Downloads/Pipeline/hazard.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module hazard
+
+Top level modules:
+	hazard
+
+} {} {}} C:/Users/user/Desktop/Pipeline/alu_ctl.v {1 {vlog -work work -stats=none C:/Users/user/Desktop/Pipeline/alu_ctl.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module alu_ctl
+
+Top level modules:
+	alu_ctl
+
+} {} {}} C:/Users/user/Desktop/Pipeline/shift.v {1 {vlog -work work -stats=none C:/Users/user/Desktop/Pipeline/shift.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module Shifter
+
+Top level modules:
+	Shifter
+
+} {} {}} C:/Users/user/Desktop/Pipeline/TotalALU.v {1 {vlog -work work -stats=none C:/Users/user/Desktop/Pipeline/TotalALU.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module TotalALU
+
+Top level modules:
+	TotalALU
+
+} {} {}} C:/Users/user/Downloads/Pipeline/shift.v {1 {vlog -work work -stats=none C:/Users/user/Downloads/Pipeline/shift.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module Shifter
+
+Top level modules:
+	Shifter
+
+} {} {}} C:/Users/user/Downloads/Pipeline/MEM_WB.v {1 {vlog -work work -stats=none C:/Users/user/Downloads/Pipeline/MEM_WB.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module MEM_WB
+
+Top level modules:
+	MEM_WB
+
+} {} {}} C:/Users/user/Downloads/Pipeline/tb_SingleCycle.v {1 {vlog -work work -stats=none C:/Users/user/Downloads/Pipeline/tb_SingleCycle.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module tb_SingleCycle
+
+Top level modules:
+	tb_SingleCycle
+
+} {} {}} C:/Users/user/Desktop/Pipeline/ALU.v {1 {vlog -work work -stats=none C:/Users/user/Desktop/Pipeline/ALU.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module ALU
+
+Top level modules:
+	ALU
+
+} {} {}} {C:/Users/user/Desktop/Pipeline/mips_pipeline .v} {1 {vlog -work work -stats=none {C:/Users/user/Desktop/Pipeline/mips_pipeline .v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module mips_pipeline
+
+Top level modules:
+	mips_pipeline
+
+} {} {}} C:/Users/user/Desktop/Pipeline/multiplier.v {1 {vlog -work work -stats=none C:/Users/user/Desktop/Pipeline/multiplier.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module Multiplier
+
+Top level modules:
+	Multiplier
+
+} {} {}} C:/Users/user/Desktop/Pipeline/adder.v {1 {vlog -work work -stats=none C:/Users/user/Desktop/Pipeline/adder.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module adder
+
+Top level modules:
+	adder
+
+} {} {}} C:/Users/user/Downloads/Pipeline/adder.v {1 {vlog -work work -stats=none C:/Users/user/Downloads/Pipeline/adder.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module adder
+
+Top level modules:
+	adder
+
+} {} {}} C:/Users/user/Downloads/Pipeline/alu_ctl.v {1 {vlog -work work -stats=none C:/Users/user/Downloads/Pipeline/alu_ctl.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module alu_ctl
+
+Top level modules:
+	alu_ctl
+
+} {} {}} {C:/Users/user/Downloads/Pipeline/mips_pipeline .v} {1 {vlog -work work -stats=none {C:/Users/user/Downloads/Pipeline/mips_pipeline .v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module mips_pipeline
+
+Top level modules:
+	mips_pipeline
+
+} {} {}} C:/Users/user/Desktop/Pipeline/bra_equ.v {1 {vlog -work work -stats=none C:/Users/user/Desktop/Pipeline/bra_equ.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module bra_equ
+
+Top level modules:
+	bra_equ
+
+} {} {}} C:/Users/user/Desktop/Pipeline/HiLo_Reg.v {1 {vlog -work work -stats=none C:/Users/user/Desktop/Pipeline/HiLo_Reg.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module HiLo
+
+Top level modules:
+	HiLo
+
+} {} {}} C:/Users/user/Desktop/Pipeline/ID_EX.v {1 {vlog -work work -stats=none C:/Users/user/Desktop/Pipeline/ID_EX.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module ID_EX
+
+Top level modules:
+	ID_EX
+
+} {} {}} C:/Users/user/Downloads/Pipeline/ID_EX.v {1 {vlog -work work -stats=none C:/Users/user/Downloads/Pipeline/ID_EX.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module ID_EX
+
+Top level modules:
+	ID_EX
+
+} {} {}} C:/Users/user/Desktop/Pipeline/Mux(1).v {1 {vlog -work work -stats=none C:/Users/user/Desktop/Pipeline/Mux(1).v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module MUX
+
+Top level modules:
+	MUX
+
+} {} {}} C:/Users/user/Downloads/Pipeline/control_single(new).v {1 {vlog -work work -stats=none C:/Users/user/Downloads/Pipeline/control_single(new).v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module control_single
+
+Top level modules:
+	control_single
+
+} {} {}} C:/Users/user/Downloads/Pipeline/TotalALU.v {1 {vlog -work work -stats=none C:/Users/user/Downloads/Pipeline/TotalALU.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module TotalALU
+
+Top level modules:
+	TotalALU
+
+} {} {}} C:/Users/user/Downloads/Pipeline/FA.v {1 {vlog -work work -stats=none C:/Users/user/Downloads/Pipeline/FA.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module FA
+
+Top level modules:
+	FA
+
+} {} {}} C:/Users/user/Desktop/Pipeline/ALU_1bit.v {1 {vlog -work work -stats=none C:/Users/user/Desktop/Pipeline/ALU_1bit.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module ALU_1bit
+
+Top level modules:
+	ALU_1bit
+
+} {} {}} {C:/Users/user/Downloads/Pipeline/sign extend.v} {1 {vlog -work work -stats=none {C:/Users/user/Downloads/Pipeline/sign extend.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module sign_extend
+
+Top level modules:
+	sign_extend
+
+} {} {}} C:/Users/user/Desktop/Pipeline/EX_MEM.v {1 {vlog -work work -stats=none C:/Users/user/Desktop/Pipeline/EX_MEM.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module EX_MEM
+
+Top level modules:
+	EX_MEM
+
+} {} {}} C:/Users/user/Downloads/Pipeline/Mux(1).v {1 {vlog -work work -stats=none C:/Users/user/Downloads/Pipeline/Mux(1).v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module MUX
+
+Top level modules:
+	MUX
+
+} {} {}} C:/Users/user/Desktop/Pipeline/reg_file.v {1 {vlog -work work -stats=none C:/Users/user/Desktop/Pipeline/reg_file.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module reg_file
+
+Top level modules:
+	reg_file
+
+} {} {}} C:/Users/user/Desktop/Pipeline/mux221.v {1 {vlog -work work -stats=none C:/Users/user/Desktop/Pipeline/mux221.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module Mux221
+
+Top level modules:
+	Mux221
+
+} {} {}} C:/Users/user/Downloads/Pipeline/bra_equ.v {1 {vlog -work work -stats=none C:/Users/user/Downloads/Pipeline/bra_equ.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module bra_equ
+
+Top level modules:
+	bra_equ
+
+} {} {}} C:/Users/user/Desktop/Pipeline/MUX4to1.v {1 {vlog -work work -stats=none C:/Users/user/Desktop/Pipeline/MUX4to1.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module MUX4to1
+
+Top level modules:
+	MUX4to1
+
+} {} {}} C:/Users/user/Downloads/Pipeline/EX_MEM.v {1 {vlog -work work -stats=none C:/Users/user/Downloads/Pipeline/EX_MEM.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module EX_MEM
+
+Top level modules:
+	EX_MEM
+
+} {} {}} C:/Users/user/Downloads/Pipeline/mux2.v {1 {vlog -work work -stats=none C:/Users/user/Downloads/Pipeline/mux2.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module mux2
+
+Top level modules:
+	mux2
+
+} {} {}} C:/Users/user/Desktop/Pipeline/control_single(new).v {1 {vlog -work work -stats=none C:/Users/user/Desktop/Pipeline/control_single(new).v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module control_single
+
+Top level modules:
+	control_single
+
+} {} {}} C:/Users/user/Downloads/Pipeline/mux221.v {1 {vlog -work work -stats=none C:/Users/user/Downloads/Pipeline/mux221.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module Mux221
+
+Top level modules:
+	Mux221
+
+} {} {}} {C:/Users/user/Desktop/Pipeline/sign extend.v} {1 {vlog -work work -stats=none {C:/Users/user/Desktop/Pipeline/sign extend.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module sign_extend
+
+Top level modules:
+	sign_extend
+
+} {} {}} C:/Users/user/Downloads/Pipeline/HiLo_Reg.v {1 {vlog -work work -stats=none C:/Users/user/Downloads/Pipeline/HiLo_Reg.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module HiLo
+
+Top level modules:
+	HiLo
+
+} {} {}}

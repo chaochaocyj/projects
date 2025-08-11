@@ -1,0 +1,20 @@
+module ALU_1bit( a, b, cin, cout, sel, out, less, binvert, set);
+	input cin ;
+	input binvert ;
+	output cout;
+	input a ;
+	input b ;
+	input less;
+	input [1:0]sel ; 
+	output out ;
+	output set ;
+	wire   e0, e1, e2, e3;
+	wire	invb;
+	and	(e0,a,b);
+	or	(e1,a,b);
+ 	xor	(invb, binvert, b);
+	FA 	u_fa(.a(a), .b(invb), .cin(cin), .cout(cout), .sum(e2)); 
+	assign set = e2;
+	assign e3 = less;
+	MUX4to1	u_mux(out,e0,e1,e2,e3,sel);
+endmodule
